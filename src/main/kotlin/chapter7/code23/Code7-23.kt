@@ -21,6 +21,7 @@ fun main() = runBlocking<Unit> {
     }
   }
   delay(1000L) // 1초간 대기
+  // 혹은 Coroutine1, Coroutine2에 대해 job1,job2 변수를 만들고 joinAll(job1,job2) 호출
 }
 /*
 // 결과:
